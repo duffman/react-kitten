@@ -25,6 +25,7 @@
   "devDependencies": {
     "@fontsource-variable/josefin-sans": "5.1.1",
     "@fontsource-variable/merienda": "5.1.1",
+    "@types/node": "^24.9.1",
     "@types/react": "19.0.8",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.15.0",

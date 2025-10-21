@@ -14,3 +14,6 @@ export * from './kitten'
 export * from './components'
 export * from './contexts'
 export * from './hooks'
+
+// VCL (Visual Component Library) - Delphi/Pascal-inspired abstraction
+export * from './vcl'
