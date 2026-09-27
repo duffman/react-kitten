@@ -1,0 +1,31 @@
+{
+  "name": "@react-kitten/subzero",
+  "version": "0.1.0",
+  "description": "Delphi-style server-driven applications on Bun, rendered by React<Kitten>",
+  "type": "module",
+  "private": true,
+  "module": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client/SubZeroClient.tsx",
+    "./protocol": "./src/protocol.ts"
+  },
+  "scripts": {
+    "demo": "bun run examples/hello/main.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
+  }
+}
